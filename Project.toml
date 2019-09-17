@@ -1,0 +1,10 @@
+name = "lm_Sensors_jll"
+uuid = "b93565a3-4493-5e41-a74a-a6d551a733e6"
+version = "3.5.0+0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[compat]
+julia = "1.3"
