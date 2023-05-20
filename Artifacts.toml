@@ -1,81 +1,83 @@
 [[lm_Sensors]]
-arch = "x86_64"
-git-tree-sha1 = "14fbbf99e9f8658088447b1acdc17c38c20d61d4"
+arch = "aarch64"
+git-tree-sha1 = "6f21f8ff6869e2ce4cecea64fdeb873b8dba38a4"
 libc = "glibc"
 os = "linux"
 
     [[lm_Sensors.download]]
-    sha256 = "74aee42cc952a41a001de029d304bca87590c4879013fccb2e31777b702ab5bf"
-    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+0/lm_Sensors.v3.5.0.x86_64-linux-gnu.tar.gz"
-[[lm_Sensors]]
-arch = "i686"
-git-tree-sha1 = "f88cd16bd36ff2e4577de2fde95d34fae3b301f1"
-libc = "musl"
-os = "linux"
-
-    [[lm_Sensors.download]]
-    sha256 = "196dbfab2e9654cb3b0b5cac44d86f8f73a7c1ad282f4796ff618e4321c54874"
-    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+0/lm_Sensors.v3.5.0.i686-linux-musl.tar.gz"
-[[lm_Sensors]]
-arch = "x86_64"
-git-tree-sha1 = "3b2eeffbad6fcd00cc9c63cf1b3c3c32b8e8ca33"
-libc = "musl"
-os = "linux"
-
-    [[lm_Sensors.download]]
-    sha256 = "83a6bd9367867e3acbe37aecb2487b5c5708e03995a77a2325684c40aececb03"
-    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+0/lm_Sensors.v3.5.0.x86_64-linux-musl.tar.gz"
+    sha256 = "7fbd0c8c7657a7d21ab39fcaf68f68f7f9933a30df936a7a70862b27c4211dc0"
+    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.aarch64-linux-gnu.tar.gz"
 [[lm_Sensors]]
 arch = "aarch64"
-git-tree-sha1 = "7843b066f9af534ec35fc17c21f17ca334c917dc"
+git-tree-sha1 = "bd6603632bb91159ea034252fe343ef26f68b996"
 libc = "musl"
 os = "linux"
 
     [[lm_Sensors.download]]
-    sha256 = "17a9a50459ce61802ce488e3a25057ab4c9c150db1a8e143f7c4c1b9d17ecfc0"
-    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+0/lm_Sensors.v3.5.0.aarch64-linux-musl.tar.gz"
+    sha256 = "54ba942da323ffb175b5bd8aaa39569dd7fd3acb77764e91b4920a77d5650a27"
+    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.aarch64-linux-musl.tar.gz"
 [[lm_Sensors]]
 arch = "armv7l"
-git-tree-sha1 = "00d529acaebe108d1c4120b8c0347565f5e13a45"
+call_abi = "eabihf"
+git-tree-sha1 = "85b70c62650cec637c9d57f63bb4e4ebb4784db9"
+libc = "glibc"
+os = "linux"
+
+    [[lm_Sensors.download]]
+    sha256 = "30183495e409c00f8f8367224c0e88f1a53ba4cb6c94e3f9c46d0a6e2e54a587"
+    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.armv7l-linux-gnueabihf.tar.gz"
+[[lm_Sensors]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "20fa78ddb29dcd364e60ebdcc3b3d4dca90d1457"
 libc = "musl"
 os = "linux"
 
     [[lm_Sensors.download]]
-    sha256 = "ae10d5e99b9402b43946fcc6680b6ea85cc1cc3185f81da7384cf0edd5fcc891"
-    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+0/lm_Sensors.v3.5.0.arm-linux-musleabihf.tar.gz"
+    sha256 = "a0a9170458146ca5acf4935c8b44cfe48eb504abe9f120500857a7d1313c2659"
+    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.armv7l-linux-musleabihf.tar.gz"
 [[lm_Sensors]]
 arch = "i686"
-git-tree-sha1 = "0e14f24b3302534c15ebd20f2e15cc245962cccf"
+git-tree-sha1 = "55aa8eb732e4618c7f2cffc1163daef262d1e6ef"
 libc = "glibc"
 os = "linux"
 
     [[lm_Sensors.download]]
-    sha256 = "8f5b59e7ebd443e28ad34a139646ec73ef333e7ef0913b5b1d33eeca284195f2"
-    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+0/lm_Sensors.v3.5.0.i686-linux-gnu.tar.gz"
+    sha256 = "fd5bdfa9f268a52c354262a950bacb4a92e15dae7f54f531b16064b53e284923"
+    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.i686-linux-gnu.tar.gz"
 [[lm_Sensors]]
-arch = "armv7l"
-git-tree-sha1 = "fe9f66d02a649d3e22af3771c04f28d9b6552f21"
-libc = "glibc"
+arch = "i686"
+git-tree-sha1 = "04850a907f3aca418b11f66a8e9b838484b2b202"
+libc = "musl"
 os = "linux"
 
     [[lm_Sensors.download]]
-    sha256 = "714b09596c235f235fc401fd5779e7c4236e855519261cb973f0e91db34bb5bb"
-    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+0/lm_Sensors.v3.5.0.arm-linux-gnueabihf.tar.gz"
-[[lm_Sensors]]
-arch = "aarch64"
-git-tree-sha1 = "f3a43c928b15aa5c89092e81ba3c4e79662f8118"
-libc = "glibc"
-os = "linux"
-
-    [[lm_Sensors.download]]
-    sha256 = "46928f33833b29c009f81e1ecbb086740fb7cc89e25477fd3ac38b04261b0792"
-    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+0/lm_Sensors.v3.5.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "51e2f8340ee0f69a5cd0ae5eb7f89659e40ee86e2cb9d5a72a6d245ee8380420"
+    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.i686-linux-musl.tar.gz"
 [[lm_Sensors]]
 arch = "powerpc64le"
-git-tree-sha1 = "36c5376e52bf4e1eaa80d69182f558ea93964c01"
+git-tree-sha1 = "91c5d451671bcb7b5e798f8bace5ad7cb829b341"
 libc = "glibc"
 os = "linux"
 
     [[lm_Sensors.download]]
-    sha256 = "0f049e9e4766c9e96212d10d59cacb26acede3f0f184a1aba8809cc98094de2d"
-    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+0/lm_Sensors.v3.5.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "f458c8b6339228253f9e23afc90e972cf9cd1710abb56992c79a9c21497cb611"
+    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.powerpc64le-linux-gnu.tar.gz"
+[[lm_Sensors]]
+arch = "x86_64"
+git-tree-sha1 = "cc0cb5301bc75f549f6eaf1f7a124329f9b73cf0"
+libc = "glibc"
+os = "linux"
+
+    [[lm_Sensors.download]]
+    sha256 = "1dd2cb14175358719e74216343fdacaf792a16fd0d9da40511022f4c75d3b520"
+    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.x86_64-linux-gnu.tar.gz"
+[[lm_Sensors]]
+arch = "x86_64"
+git-tree-sha1 = "5fd9ba2734f9f92f345ab92e0555af7ef0950ca7"
+libc = "musl"
+os = "linux"
+
+    [[lm_Sensors.download]]
+    sha256 = "7a2081bdb75a089e646fde803446e505a0f4956994e61735c0cbf7fbe95de761"
+    url = "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.x86_64-linux-musl.tar.gz"
